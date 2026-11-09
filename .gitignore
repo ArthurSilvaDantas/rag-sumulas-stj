@@ -1,0 +1,13 @@
+# Ambiente Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Dados gerados pelos notebooks 01 a 03 (ver data/README.md)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/*/.gitkeep
+
+# Sistema
+.DS_Store
